@@ -1,0 +1,26 @@
+html {
+	background: url(backgroundimage.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+
+	color: white;
+	background-color: #191C1F;
+	font-family: Lato;
+	text-align: center;
+	margin-top: 290px;
+	margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.panel {
+	background-color: rgba(255, 255, 255, 0.9);
+
+.margin-base-vertical {
+	margin: 40px 0;
+}
