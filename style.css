@@ -1,28 +1,112 @@
-html {
-	background: url(backgroundimage.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+/*Header/Logo*/
+
+#first {
+        background: url(backgroundimage.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        color: white;
 }
 
-h1 {
-	font-family: Raleway;
-	font-size: 72px;
+.header {
+        color: white;
+        font-family: Raleway;
+        text-align: center;
+        font-size:  75px;
+        padding-top: 65%;
+        padding-bottom: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent;
 }
 
-/*Has been postioned*/ 
 .message {
-	color: white;
-	font-family: Raleway;
-	text-align: center;
-	position:fixed;
-    top: 50%;
-    left: 38%;
-    width:50em;
-    height:12em;
-    margin-top: -9em; /*set to a negative number 1/2 of your height*/
-    margin-left: -15em; /*set to a negative number 1/2 of your width*/
-    background-color: transparent;
+        color: white;
+        font-family: Raleway;
+        text-align: center;
+        font-size: 17px;
+        padding-bottom: 85%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent;
 }
 
+/*Who are we?*/
+
+#second {
+/*        background: url(backgroundimage2.jpg) no-repeat center center fixed;*/
+	background-color: white;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.who-are-we {
+        color: black;
+        font-family: Raleway;
+        text-align: center;
+        font-size: 17px;
+        padding-top: 55%;
+        padding-bottom: 55%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent;
+}
+
+/*How do we do what we do?*/
+
+#third {
+        /*        background: url(backgroundimage2.jpg) no-repeat center center fixed;*/
+        background-color: black;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+.what-do-we-do {
+        color: white;
+        font-family: Raleway;
+        text-align: left;
+        font-size: 17px;
+        padding-top: 51%;
+        padding-bottom: 18%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent;
+}
+
+.portalmockup {
+        text-align: right;
+        padding-top: 18%;
+        padding-bottom: 8%;
+
+}
+
+#fourth {
+        background-color: white;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.parting-message {
+        color: black;
+        font-family: Raleway;
+        text-align: center;
+        font-size: 17px;
+        padding-top: 80%;
+        padding-bottom: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent;
+}
