@@ -1,7 +1,8 @@
 /*Header/Logo*/
 
 #first {
-        background: url(backgroundimage.jpg) no-repeat center center fixed;
+        
+        /*background: url(backgroundimage.jpg) no-repeat center center fixed;*/
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -10,24 +11,25 @@
 }
 
 .header {
-        color: white;
+        color: black;
         font-family: Raleway;
         text-align: center;
         font-size:  75px;
-        padding-top: 65%;
-        padding-bottom: 10%;
+ /*       padding-top: 55%;*/
+/*        padding-bottom: 10%;*/
         display: block;
         margin-left: auto;
         margin-right: auto;
         background-color: transparent;
 }
-
+`
 .message {
-        color: white;
+        color: black;
         font-family: Raleway;
         text-align: center;
         font-size: 17px;
-        padding-bottom: 85%;
+        padding-top: 65%;
+        padding-bottom: 115%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -37,7 +39,7 @@
 /*Who are we?*/
 
 #second {
-/*        background: url(backgroundimage2.jpg) no-repeat center center fixed;*/
+        background: url(backgroundimage.jpg) no-repeat center center fixed;
 	background-color: white;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -46,12 +48,12 @@
 }
 
 .who-are-we {
-        color: black;
+        color: white;
         font-family: Raleway;
         text-align: center;
         font-size: 17px;
-        padding-top: 55%;
-        padding-bottom: 55%;
+        padding-top: 35%;
+        padding-bottom: 35%;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -67,7 +69,6 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-
 }
 
 .what-do-we-do {
@@ -87,10 +88,56 @@
         text-align: right;
         padding-top: 18%;
         padding-bottom: 8%;
-
 }
 
 #fourth {
+/*        background: url(backgroundimage2.jpg) no-repeat center center fixed;*/
+        background-color: white;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+.community {
+        color: black;
+        font-family: Raleway;
+        text-align: left;
+        font-size: 17px;
+        padding-top: 51%;
+        padding-bottom: 18%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent;
+}
+
+
+
+#fifth {
+        /*        background: url(backgroundimage2.jpg) no-repeat center center fixed;*/
+        background-color: black;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+.notes {
+        color: white;
+        font-family: Raleway;
+        text-align: left;
+        font-size: 17px;
+        padding-top: 51%;
+        padding-bottom: 18%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent;
+}
+
+#sixth {
         background-color: white;
         -webkit-background-size: cover;
         -moz-background-size: cover;
